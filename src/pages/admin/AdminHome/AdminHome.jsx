@@ -2,8 +2,23 @@ import './AdminHome.css'
 import NavBar from '../../../components/NavBar/NavBar';
 import CardClass from '../../../components/CardClass/CardClass';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import Modal from 'react-modal';
+import ModalCreateTest from '../../../components/ModalCreateTest/ModalCreatetest';
+
 
 function AdminHome(){
+
+    // MODAL INFO
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+
+    const openModal = () => {
+        setModalIsOpen(true);
+    }
+
+    const closeModal = () => {
+        setModalIsOpen(false);
+    }
 
     return(
         <div className='body-admin-home'>
@@ -21,9 +36,8 @@ function AdminHome(){
                     <h1>TESTES</h1>
                 </div>
                 <div className='button-addquestion-div'>
-                    <Link className='link-addquestion'>
-                        <button className='button-addquestion'>Adicionar nova pergunta ao jogo</button>
-                    </Link>
+                        <button onClick={openModal} className='button-addquestion'>Adicionar nova pergunta ao jogo</button>
+                    <ModalCreateTest isOpen={modalIsOpen} closeModal={closeModal} ></ModalCreateTest>
                 </div>
             </div>
         </div>
