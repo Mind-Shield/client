@@ -5,9 +5,9 @@
     
     .logo-nav-bar{
         font-family: 'Luckiest Guy', cursive;
-        font-size: 30px;
+        font-size: 35px;
         color: #233F4F;
-        text-shadow: -10px 10px 0px #F4F4F4;
+        text-shadow: -10px 10px 0px rgba(214, 214, 214, 1);
         margin: 0;
         display: flex;
         padding-left: 40px;
@@ -16,7 +16,7 @@
     .body-navbar{
         background-color: white;
         width: 100%;
-        height: 12%;
+        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -66,3 +66,4 @@
         justify-content: center;
         padding-right: 40px;
     }
+    
