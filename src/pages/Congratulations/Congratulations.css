@@ -24,12 +24,12 @@
     flex-direction: column;
     width: 60%;
     height: 60%;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     min-height: fit-content;
     min-width:min-content;
     text-align: center;
@@ -40,32 +40,50 @@
 .title-cong h1{
     font-family: 'Luckiest Guy', cursive;
     color: white;
-    font-size: 70px;
+    font-size: 110px;
     margin: 0;
 }
 
-.text-cong{
+.text-cong p{
     font-family: 'Noto Sans', sans-serif;
     color: white;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     display: flex;
+    margin: 0;
 }
 
-.text-cong-2{
+.text-cong-2 p{
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     color: white;
     font-size: 35px;
+    margin: 0;
 }
 
-.back-div-cong{
+
+.button-end-div{
     display: flex;
-    align-self: flex-start;
-    background: none;
-    background-color: none;
+    text-decoration: none;
 }
-.go-div-cong{
+
+.button-end{
     display: flex;
-    align-self: flex-end;
+    background: rgba(35, 63, 79);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    border-style:none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 200px;
+    justify-content: center;
+
+}
+
+.link-end{
+    text-decoration: none;
 }
