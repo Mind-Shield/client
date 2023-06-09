@@ -13,24 +13,24 @@ function Theme (){
                 </div>
                <div className='allchoice-buttons'>
                     <div className='firstItem-Theme'>
-                        <div className='button-play-div'>
+                        <div className='button-choice-div'>
                             <Link to="/Instructions" className='link-start'>
                                 <button className='button-choice'>amigos</button>
                             </Link>
                         </div>
-                        <div className='button-play-div'>
+                        <div className='button-choice-div'>
                             <Link to="/Instructions" className='link-start'>
                                 <button className='button-choice'>família</button>
                             </Link>
                         </div>
                     </div>
                     <div className='secondItem-Theme'>
-                        <div className='button-play-div'>
-                            <Link to="/Instructions" className='link-start'>
+                        <div className='button-choices-div'>
+                            <Link to="/School" className='link-start'>
                                 <button className='button-choice'>escola</button>
                             </Link>
                         </div>
-                        <div className='button-play-div'>
+                        <div className='button-choice-div'>
                             <Link to="/Instructions" className='link-start'>
                                 <button className='button-choice'>lazer</button>
                             </Link>
