@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import { useState } from 'react';
 import Modal from 'react-modal';
-import ModalInfo from '../../components/Modalnfo/ModalInfo';
+import ModalInfo from '../../../components/Modalnfo/ModalInfo';
 
 
 

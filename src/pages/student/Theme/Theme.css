@@ -3,87 +3,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 
-.body-cong{
+.body-theme{
     margin: 0;
     display: flex;
     height: 100vh;
     width: 100vw;
-    background-image: url(../../assets/backgroundNature.png);
+    background-image: url(../../../assets/backgroundNature.png);
     background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.modal-cong{
+.modal-theme{
     background: rgba(35, 63, 79, 0.54);
     backdrop-filter: blur(25px);
-/* Note: backdrop-filter has minimal browser support */
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     width: 60%;
     height: 60%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-top: 60px;
     min-height: fit-content;
     min-width:min-content;
     text-align: center;
-    gap: 20px;
+    gap: 40px;
     position: relative;
 }
 
-.title-cong h1{
+.title-theme h1{
     font-family: 'Luckiest Guy', cursive;
     color: white;
-    font-size: 110px;
+    font-size: 70px;
     margin: 0;
 }
 
-.text-cong p{
+.text-theme{
     font-family: 'Noto Sans', sans-serif;
-    color: white;
-    font-size: 45px;
-    text-align: center;
-    display: flex;
-    margin: 0;
-}
-
-.text-cong-2 p{
-    font-family: 'Noto Sans', sans-serif;
-    display: flex;
     color: white;
     font-size: 35px;
-    margin: 0;
+    text-align: center;
 }
 
+.text-theme{
+    display: flex;
+}
 
-.button-end-div{
+.back-div-theme{
+    display: flex;
+    align-self: flex-start;
+    background: none;
+    background-color: none;
+}
+.go-div-theme{
+    display: flex;
+    align-self: flex-end;
+}
+
+.backbutton-theme{
+    background-color: none;
+    background: none;
+    border-style: none;
+    display: flex;
+}
+
+.gobutton-theme{
+    background-color: none;
+    background: none;
+    border-style: none;
+    display: flex;
+}
+
+.buttons-theme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.button-choice-div{
     display: flex;
     text-decoration: none;
 }
 
-.button-end{
+.button-choice{
     display: flex;
-    background: rgba(35, 63, 79);
+    background: #233F4F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    color: white;
+    color: #FFFFFF;
     font-family: 'Luckiest Guy', cursive;
-    font-size: 40px;
+    font-size: 60px;
     border-style:none;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    width: 200px;
+    padding-top: 20px;
+    width: 350px;
     justify-content: center;
-
+    margin: 10px;
 }
 
-.link-end{
-    text-decoration: none;
+.firstItem-Theme{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.secondItem-Theme{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.allchoice-buttons{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }

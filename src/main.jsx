@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import StartPage from './pages/StartPage/StartPage.jsx';
-import Instructions from './pages/Instructions/Instructions';
-import Remember from './pages/Remember/Remember';
-import Theme from './pages/Theme/Theme';
-import School from './pages/School/School';
+import StartPage from './pages/student/StartPage/StartPage.jsx';
+import Instructions from './pages/student/Instructions/Instructions';
+import Remember from './pages/student/Remember/Remember';
+import Theme from './pages/student/Theme/Theme';
+import School from './pages/student/School/School';
 import ModalInfo from './components/Modalnfo/ModalInfo';
-import Congratulations from './pages/Congratulations/Congratulations';
+import Congratulations from './pages/student/Congratulations/Congratulations';
 
 const router = createBrowserRouter([
  
