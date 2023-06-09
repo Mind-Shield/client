@@ -9,9 +9,11 @@ import Theme from './pages/student/Theme/Theme';
 import School from './pages/student/School/School';
 import ModalInfo from './components/Modalnfo/ModalInfo';
 import Congratulations from './pages/student/Congratulations/Congratulations';
+import AdminHome from './pages/admin/AdminHome/AdminHome';
 
 const router = createBrowserRouter([
  
+  //student pages
   {
     path:"/StartPage",
     element:<StartPage/>
@@ -53,6 +55,12 @@ const router = createBrowserRouter([
     element:<Congratulations/>
   },
 
+  //admin pages
+
+  {
+    path:"/AdminHome",
+    element:<AdminHome/>
+  },
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

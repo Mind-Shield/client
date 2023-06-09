@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+.body-admin-home{
+    background-color: #F4F4F4;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    width: 100vw;
+    
+}
