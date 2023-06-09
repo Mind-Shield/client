@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import StartPage from './pages/StartPage/StartPage.jsx';
 import Instructions from './pages/Instructions/Instructions';
 import Remember from './pages/Remember/Remember';
+import Theme from './pages/Theme/Theme';
 
 const router = createBrowserRouter([
  
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path:"/Remember",
     element:<Remember/>
+  },
+  {
+    path:"/Theme",
+    element:<Theme/>
   },
 
 

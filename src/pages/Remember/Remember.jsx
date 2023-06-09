@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Lembre(){
+function Remember(){
 
     return(
         <div className='body-lembre'>
@@ -28,7 +28,7 @@ function Lembre(){
                         </Link>
                     </div>
                     <div className='go-div-lembre'>
-                        <Link to="/Remember">
+                        <Link to="/Theme">
                             <button className='gobutton-lembre'>
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#233F4F"/>
@@ -45,4 +45,4 @@ function Lembre(){
     );
 };
 
-export default Lembre;
+export default Remember;
