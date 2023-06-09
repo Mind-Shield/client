@@ -30,3 +30,14 @@
 .name-cardclass{
     display: flex;
 }
+
+.button-name{
+    display: flex;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+
+.button-name-link{
+    
+}

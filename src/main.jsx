@@ -10,6 +10,8 @@ import School from './pages/student/School/School';
 import ModalInfo from './components/Modalnfo/ModalInfo';
 import Congratulations from './pages/student/Congratulations/Congratulations';
 import AdminHome from './pages/admin/AdminHome/AdminHome';
+import AdminClass from './pages/admin/adminClass/adminClass';
+import AdminStudent from './pages/admin/adminStudent/adminStudent';
 
 const router = createBrowserRouter([
  
@@ -60,6 +62,14 @@ const router = createBrowserRouter([
   {
     path:"/AdminHome",
     element:<AdminHome/>
+  },
+  {
+    path:"/AdminClass",
+    element:<AdminClass/>
+  },
+  {
+    path:"/AdminStudent",
+    element:<AdminStudent/>
   },
 
 ]);
