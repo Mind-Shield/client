@@ -27,6 +27,7 @@
 
 .button-play-div{
     display: flex;
+    text-decoration: none;
 }
 
 .button-play{
@@ -43,4 +44,9 @@
     width: 450px;
     justify-content: center;
     
+    
+}
+
+.link-start{
+    text-decoration: none;
 }

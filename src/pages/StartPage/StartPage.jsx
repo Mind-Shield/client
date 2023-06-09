@@ -1,4 +1,5 @@
 import './StartPage.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -10,7 +11,9 @@ function StartPage(){
                 <h1>Mind Shild</h1>
             </div>
             <div className='button-play-div'>
-                <button className='button-play'>PLAY</button>
+                <Link to="/Instructions" className='link-start'>
+                    <button className='button-play'>PLAY</button>
+                </Link>
             </div>
         </div>
     );
