@@ -13,7 +13,7 @@ function NavBar(){
                     <p >Seja bem vindo!</p>
                 </div>
                 <div className='adminlogout-div'>
-                    <Link className='link-adminlogout'>
+                    <Link to="/LoginPage" className='link-adminlogout'>
                     <button className='adminlogout'>SAIR</button>
                     </Link>
                 </div>

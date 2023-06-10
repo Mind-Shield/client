@@ -57,8 +57,20 @@ function AdminClass(){
                                     </button>
                                 </Link>
                             </li>
-                            <li>Bruno Meira</li>
-                            <li>Lucas de Britto</li>
+                            <li>
+                                <Link to="/adminStudent" className='button-name-link'>
+                                    <button className='button-name'>
+                                    Bruno Meira
+                                    </button>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/adminStudent" className='button-name-link'>
+                                    <button className='button-name'>
+                                    Lucas de Britto
+                                    </button>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 

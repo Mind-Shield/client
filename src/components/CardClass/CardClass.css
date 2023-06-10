@@ -3,9 +3,9 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    gap: 30px;
     flex-wrap: nowrap;
     max-width: 100vw;
+
 
 }
 
@@ -17,6 +17,8 @@
     display: flex;
     justify-content: end;
     align-items: end;
+
+    margin-left: 150px;
 }
 
 .item-cardclass p{
@@ -38,6 +40,7 @@
     font-size: 30px;
 }
 
-.button-name-link{
-    
+.button-cardclass{
+    border-style: none;
+    background: none;
 }

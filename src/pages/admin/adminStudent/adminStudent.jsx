@@ -37,9 +37,9 @@ function AdminStudent(){
                     <div className='stud-list'>
                         <p>TESTES REALIZADOS</p>
                         <ul>
-                            <li>Data de realização:</li>
-                            <li>Temática:</li>
-                            <li>Resultado:</li>
+                            <li>Data de realização: 09/06/2023</li>
+                            <li>Temática: Escola</li>
+                            <li>Resultado médio: Positivo</li>
                         </ul>
                     </div>
                 </div>
