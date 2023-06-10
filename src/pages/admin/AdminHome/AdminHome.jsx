@@ -2,9 +2,10 @@ import './AdminHome.css'
 import NavBar from '../../../components/NavBar/NavBar';
 import CardClass from '../../../components/CardClass/CardClass';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import ModalCreateTest from '../../../components/ModalCreateTest/ModalCreatetest';
+import endpointService from '../../../services/endpoints';
 
 
 function AdminHome(){
@@ -20,6 +21,7 @@ function AdminHome(){
         setModalIsOpen(false);
     }
 
+
     return(
         <div className='body-admin-home'>
             <div className='header'>
@@ -30,7 +32,7 @@ function AdminHome(){
                     <h1>TURMAS</h1>
                 </div>
                 <div className='card-home-div'>
-                    <CardClass></CardClass>
+                    <CardClass />
                 </div>
                 <div className='title-home'>
                     <h1>TESTES</h1>
@@ -42,6 +44,6 @@ function AdminHome(){
             </div>
         </div>
     );
-};
+}
 
 export default AdminHome;

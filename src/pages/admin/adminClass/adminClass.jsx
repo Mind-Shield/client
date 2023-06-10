@@ -2,14 +2,16 @@ import './AdminClass.css'
 import NavBar from '../../../components/NavBar/NavBar';
 import CardClass from '../../../components/CardClass/CardClass';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Modal from 'react-modal';
 import ModalCreateTest from '../../../components/ModalCreateTest/ModalCreatetest';
 import ModalAddStudent from '../../../components/ModalAddStudent/ModalAddStudent';
+import studentsClassCtx from '../../../context/classId-ctx';
 
 
-function AdminClass(){
-
+function AdminClass(props){
+    const { students } = useContext(studentsClassCtx);
+    console.log(students);
     // MODAL INFO
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
@@ -87,6 +89,6 @@ function AdminClass(){
             </div>
         </div>
     );
-};
+}
 
 export default AdminClass;

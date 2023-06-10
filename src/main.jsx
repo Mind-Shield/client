@@ -13,6 +13,7 @@ import AdminHome from './pages/admin/AdminHome/AdminHome';
 import AdminClass from './pages/admin/adminClass/adminClass';
 import AdminStudent from './pages/admin/adminStudent/adminStudent';
 import LoginPage from './pages/LoginPage/LoginPage';
+import { studentsClassCtxProvider } from "./context/classId-ctx";
 
 const router = createBrowserRouter([
  
@@ -83,8 +84,8 @@ const router = createBrowserRouter([
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <studentsClassCtxProvider>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </studentsClassCtxProvider>
 )
 

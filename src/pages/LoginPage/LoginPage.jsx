@@ -24,7 +24,7 @@ function LoginPage(){
     const handleFormSubmit = async (event) => {
       event.preventDefault();
       try {
-        const response = await axios.post('http://localhost:5500/auth/signin', {
+        const response = await axios.post('http://44.193.74.82:5500/auth/signin', {
           email,
           password
         });
@@ -32,8 +32,13 @@ function LoginPage(){
         setEmail('');
         setPassword('');
         const { access_token } = response.data;
+        const { responsible } = response.data;
         setAuthorizationHeader(access_token);
-        navigate("/StartPage", { replace: true })
+        if(responsible){
+          navigate("/AdminHome", { replace: true })
+        }else{
+          navigate("/StartPage", { replace: true })
+        }
       } catch (error) {
         console.error('Login error:', error);
       }
