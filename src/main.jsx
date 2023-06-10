@@ -12,10 +12,15 @@ import Congratulations from './pages/student/Congratulations/Congratulations';
 import AdminHome from './pages/admin/AdminHome/AdminHome';
 import AdminClass from './pages/admin/adminClass/adminClass';
 import AdminStudent from './pages/admin/adminStudent/adminStudent';
+import LoginPage from './pages/LoginPage/LoginPage';
 
 const router = createBrowserRouter([
  
   //student pages
+  {
+    path:"/LoginPage",
+    element:<LoginPage/>
+  },
   {
     path:"/StartPage",
     element:<StartPage/>
