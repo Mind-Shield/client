@@ -41,3 +41,9 @@ Para executar o client front-end é necessário entrar no repositório do front-
 ```
 
 <br>
+
+
+
+## License
+
+Distributed under the MIT License. See [License](https://github.com/Mind-Shield/client/blob/main/LICENSE) for more information.
