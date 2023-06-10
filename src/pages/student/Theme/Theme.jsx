@@ -14,12 +14,12 @@ function Theme (){
                <div className='allchoice-buttons'>
                     <div className='firstItem-Theme'>
                         <div className='button-choice-div'>
-                            <Link to="/Instructions" className='link-start'>
+                            <Link to="/School" className='link-start'>
                                 <button className='button-choice'>amigos</button>
                             </Link>
                         </div>
                         <div className='button-choice-div'>
-                            <Link to="/Instructions" className='link-start'>
+                            <Link to="/School" className='link-start'>
                                 <button className='button-choice'>família</button>
                             </Link>
                         </div>
@@ -31,7 +31,7 @@ function Theme (){
                             </Link>
                         </div>
                         <div className='button-choice-div'>
-                            <Link to="/Instructions" className='link-start'>
+                            <Link to="/School" className='link-start'>
                                 <button className='button-choice'>lazer</button>
                             </Link>
                         </div>
@@ -65,6 +65,6 @@ function Theme (){
             
         </div>
     );
-};
+}
 
 export default Theme;
