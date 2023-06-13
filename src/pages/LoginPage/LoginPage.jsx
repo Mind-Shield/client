@@ -24,7 +24,7 @@ function LoginPage(){
     const handleFormSubmit = async (event) => {
       event.preventDefault();
       try {
-        const response = await axios.post('http://44.193.74.82:5500/auth/signin', {
+        const response = await axios.post('http://54.162.9.19:5500/auth/signin', {
           email,
           password
         });
